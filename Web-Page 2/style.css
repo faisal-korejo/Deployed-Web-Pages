@@ -1,0 +1,122 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text for contrast */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #222; /* Dark grey background */
+    color: #ff5733; /* Red-orange color for the text */
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ff5733; /* Red-orange color for links */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    background-color: #333; /* Darker background for sections */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff5733; /* Red-orange color for headings */
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: #444; /* Dark grey for individual project cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff5733; /* Red-orange color for project titles */
+}
+
+.project p {
+    font-size: 1rem;
+    color: #ccc; /* Lighter text for descriptions */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222; /* Dark footer background */
+    color: #ff5733; /* Red-orange text for footer */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .project {
+        padding: 15px;
+    }
+}
